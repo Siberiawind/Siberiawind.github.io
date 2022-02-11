@@ -71,9 +71,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-SYN攻击原理" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2022/02/03/hello-world/" class="article-date">
+    <a href="/2022/02/03/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/" class="article-date">
   <time class="dt-published" datetime="2022-02-03T03:28:58.611Z" itemprop="datePublished">2022-02-03</time>
 </a>
     
@@ -85,7 +85,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/02/03/hello-world/">Hello World</a>
+      <a class="p-name article-title" href="/2022/02/03/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/">SYN攻击原理</a>
     </h1>
   
 
@@ -93,24 +93,13 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p>SYN攻击属于DOS攻击的一种，利用TCP协议的缺陷，通过发送大量的半连接请求，由于源地址是伪造的，服务器需要不断的重发直至超时，并且伪造的SYN包也会长时间占用未连接的队列，正常的SYN请求会被丢弃，目标系统运行缓慢，严重甚至会引起网络堵塞甚至系统瘫痪(耗费CPU和内存资源)</p>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p>blog.csdn.net&#x2F;byc6352&#x2F;article&#x2F;details&#x2F;92412727</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://siberiawind.github.io/2022/02/03/hello-world/" data-id="ckz6g7eeo0000uwvzbrfq5gfl" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="https://siberiawind.github.io/2022/02/03/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/" data-id="ckzioutwv0000govz06s98ism" data-title="SYN攻击原理" class="article-share-link">Share</a>
       
       
       
@@ -153,7 +142,7 @@
       <ul>
         
           <li>
-            <a href="/2022/02/03/hello-world/">Hello World</a>
+            <a href="/2022/02/03/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/">SYN攻击原理</a>
           </li>
         
       </ul>
