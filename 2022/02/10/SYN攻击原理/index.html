@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   
   
-  <title>SYN攻击原理 | Hexo</title>
+  <title>SYN攻击原理 | YOLO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="SYN攻击属于DOS攻击的一种，利用TCP协议的缺陷，通过发送大量的半连接请求，由于源地址是伪造的，服务器需要不断的重发直至超时，并且伪造的SYN包也会长时间占用未连接的队列，正常的SYN请求会被丢弃，目标系统运行缓慢，严重甚至会引起网络堵塞甚至系统瘫痪(耗费CPU和内存资源) 参考链接blog.csdn.net&#x2F;byc6352&#x2F;article&#x2F;details&amp;#x2">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SYN攻击原理">
 <meta property="og:url" content="https://siberiawind.github.io/2022/02/10/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="YOLO">
 <meta property="og:description" content="SYN攻击属于DOS攻击的一种，利用TCP协议的缺陷，通过发送大量的半连接请求，由于源地址是伪造的，服务器需要不断的重发直至超时，并且伪造的SYN包也会长时间占用未连接的队列，正常的SYN请求会被丢弃，目标系统运行缓慢，严重甚至会引起网络堵塞甚至系统瘫痪(耗费CPU和内存资源) 参考链接blog.csdn.net&#x2F;byc6352&#x2F;article&#x2F;details&amp;#x2">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale">
 <meta property="article:published_time" content="2022-02-09T17:39:21.000Z">
 <meta property="article:modified_time" content="2022-02-11T17:39:35.013Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Siberia怒风">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="YOLO" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -46,7 +46,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">YOLO</a>
       </h1>
       
     </div>
@@ -63,10 +63,10 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Siberiawind.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Siberiawind.github.io"></form>
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://siberiawind.github.io/2022/02/10/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/" data-id="ckzip3ck000006wvz7i0jgm72" data-title="SYN攻击原理" class="article-share-link">Share</a>
+      <a data-url="https://siberiawind.github.io/2022/02/10/SYN%E6%94%BB%E5%87%BB%E5%8E%9F%E7%90%86/" data-id="ckzip8h0y0000icvzdv9sf7j6" data-title="SYN攻击原理" class="article-share-link">Teilen</a>
       
       
       
@@ -127,7 +127,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a></li></ul>
     </div>
@@ -137,7 +137,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
@@ -158,7 +158,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2022 John Doe<br>
+      &copy; 2022 Siberia怒风<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
